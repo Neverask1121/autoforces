@@ -214,8 +214,8 @@ jobs:
       - name: Pull latest changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "rpsh2823@ramadevipublicschool.com"
+          git config --local user.name "Neverask1121"
           git pull --rebase
         
       - name: Commit and push changes
